@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- profile card -->
+    <article data-testid="test-profile-card" class="profile-card">
+      <!-- avatar -->
+      <img
+        data-testid="test-user-avatar"
+        src="./avatarImage.jpg"
+        alt="user avatar"
+        class="avatar-image"
+      />
+
+      <!-- name -->
+      <p data-testid="test-user-name" class="user-name">Akanimo Umoh</p>
+
+      <!-- social links -->
+      <div data-testid="test-user-social-links" class="socials-ctn">
+        <a
+          data-testid="test-user-social-twitter"
+          href="https://twitter.com/umoh____"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Twitter</a
+        >
+        <a
+          data-testid="test-user-social-facebook"
+          href="https://facebook.com/akanimo.umoh.77"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Facebook</a
+        >
+        <a
+          data-testid="test-user-social-instagram"
+          href="https://www.instagram.com/iam_umoh"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Instagram</a
+        >
+      </div>
+
+      <hr />
+
+      <!-- short bio -->
+      <p data-testid="test-user-bio" class="short-bio">
+        Passionate frontend developer who loves turning designs into fast,
+        accessible and responsive web experiences. Comfortable across the stack
+        but happiest in the browser.
+      </p>
+
+      <div class="habbit-ctn">
+        <div class="hobbies-ctn">
+          <p class="label">Hobbies</p>
+
+          <ul data-testid="test-user-hobbies" class="habbits-ul">
+            <li>Coding</li>
+            <li>Travelling</li>
+            <li>Gaming</li>
+            <li>Football</li>
+          </ul>
+        </div>
+
+        <div class="dislikes-ctn">
+          <p class="label">Dislikes</p>
+
+          <ul data-testid="test-user-dislikes" class="habbits-ul">
+            <li>Dishonesty</li>
+            <li>Lies</li>
+            <li>Unaccountability</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- current time in milliseconds -->
+      <p data-testid="test-user-time" class="time" aria-live="polite"></p>
+    </article>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  min-height: 100vh;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  background: #ccc;
+}
+
+.profile-card {
+  /* border: 1px solid blue; */
+  margin: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 0px 2px hsl(240, 100%, 50%);
+  max-width: 400px;
+}
+
+.avatar-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.user-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.socials-ctn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.socials-ctn a {
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  width: 100%;
+  margin-top: 10px;
+  border-color: blue;
+}
+
+.short-bio {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb(53, 48, 48);
+}
+
+.habbit-ctn {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.hobbies-ctn {
+  /* border: 1px solid red; */
+  flex: 1;
+}
+
+.label {
+  /* border: 1px solid red; */
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dislikes-ctn {
+  /* border: 1px solid red; */
+  flex: 1;
+}
+
+.habbits-ul {
+  /* border: 1px solid orange; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  color: rgb(53, 48, 48);
+  margin-top: 4px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.time {
+  /* border: 1px solid blue; */
+  margin-top: 20px;
+}
